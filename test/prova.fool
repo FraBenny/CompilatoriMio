@@ -1,0 +1,19 @@
+class First (int x, int t){
+        int uno() (x + 1) * 2 ;
+        bool due() true;
+        int oltre() t;
+    }
+
+class Second extends First (int y){
+       int quattro() 100;
+       int tre() y;
+};
+
+let
+        Second a = new Second(45, 44, 54);
+        int p = 9;
+        Second x = new Second(10, 21, 32);
+        bool c= false;
+        First n = new First (4, 7);
+in
+        print(x.uno() + n.oltre() + 1);
